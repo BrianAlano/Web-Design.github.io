@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Gear Selection</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0E65A3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('imges/gearsbg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px; 
+            height: auto;
+        }
+        p{
+            font-size: 18px;
+        }
+        .gear-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: #fff;
+        }
+
+        .gear-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .gear-list-item {
+            margin-bottom: 20px;
+            border: 1px solid #fff;
+            padding: 10px;
+        }
+        h1{
+            font-family: serif; 
+            font-size: 60px;
+            height: inherit;
+            text-align: match-parent;
+            color: darkorange;
+        }
+        .gear-list-item:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .main-nav {
+            text-align: center;
+        }
+
+        .main-nav a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #0E65A3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .main-nav a:hover {
+            background-color: #0C4E8A;
+        }
+        .sub-nav {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            z-index: 1;
+        }
+
+        .main-nav:hover .sub-nav {
+            display: block;
+        }
+
+        .sub-nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 0;
+        }
+        .sub-nav a:hover {
+            background-color: #0C4E8A;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        footer a{
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+                 <img class="logo" src="imges/logo.jpeg" alt="Motorcycle World Logo"> 
+
+        <h1>Kingdread's Top Quality Gears!</h1>
+        <a href="motorcycle.html" class="button">View Motorcycles</a>
+        <a href="gear.html" class="button">Shop Gear</a>
+        <a href="about.html" class="button">About Us</a>
+        <a href="showroomid.html" class="button">Show Room</a>
+        <a href="contactus.html" class="button">Contact Us</a>
+    </header>
+
+    <div class="gear-container">
+        <h2>Motorcycle Gear Selection</h2>
+        <ul class="gear-list">
+            <li class="gear-list-item">
+                <img src="imges/jacket.jpg" class="center" style="width: 50%;height: auto;">
+                <h3>Aircon Waterproof Motorcycle Jacket</h3>
+                <p>Features: 
+
+600D Cordura construction, Waterproof and Breathable
+YKK zippers
+Removable CE approved armours at Shoulders & Elbows. Soft back armour plate
+2 Side pockets and 1 inner pocket
+Removable thermal lining, Air vent zippers
+Comfortable padded collar, Slim fit. Order one size up recommended
+Heavy duty zipper at bottom to attach trousers
+Reflective piping for enhanced road visibility
+Adjustment fasteners and zippers across cuffs
+All seams are heat moulded to make waterproof</p>
+                <p>Price: ₱3,451.28</p>
+                <a href="https://chrunix.com/aircon-waterproof-motorcycle-jacket.html" class="button">Select</a>
+            </li>
+            <li class="gear-list-item">
+                <img src="imges/helmet.jpg" class="center" style="width: 50%;height: auto;">
+                <h3>Shoei RF-1400 Street Helmet-Matte Black-L</h3>
+                <p>one of the best helmets you can ever buy. Light weight and DOT certified,  shell's shape for better manage drag and one of the quitest helmets ever created</p>
+                <p>Price: ₱32,977.65</p>
+                <a href="https://www.amazon.com/Shoei-RF-1400-Helmet-Large-Matte/dp/B08QRKZX96?asc_source=&asc_campaign=64305085e0231afd6bf92b22%7C4GwpKpXAoiZcZ6RpyB8K3F&asc_refurl=https%3A%2F%2Fwww.wired.com%2Fstory%2Fbest-motorcycle-gear%2F&tag=w050b-20&ascsubtag=64305085e0231afd6bf92b22&th=1" class="button">Select</a>
+            </li>
+            <li class="gear-list-item">
+                <img src="imges/headset.jpg" class="center" style="width: 50%;height: auto;">
+                <h3>Cardo Freecom 2X Bluetooth Headse</h3>
+                <p>The World's best Bluetooth communicator
+Equipped with Sound by JBL and the latest Bluetooth technology, Freecom 2x introduces Live Intercom, an auto-reconnecting Bluetooth connection for two riders, with live sound like never before. Waterproof, jog-dial and over-the-air software updates provide additional value to an already incredible package.</p>
+                <p>Price: ₱11,948.06</p>
+                <a href="https://www.amazon.com/Cardo-Systems-Freecom-Single-Black/dp/B09MQ7C185/ref=sr_1_1_sspa?crid=1VNN4ID1O9I8R&keywords=Cardo%2BFreecom%2B2X%2BBluetooth%2BHeadset&qid=1696312274&sprefix=cardo%2Bfreecom%2B2x%2Bbluetooth%2Bheadse%2Caps%2C407&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" class="button">Select</a>
+            </li>
+        </ul>
+        <footer>
+        <p>&copy; 2023 Motorcycle World</p>
+        <p>Contact: info@motorcycleworld.com</p>
+        <a href="https://web.facebook.com/rolandbrian.alano/">Facebook</a>
+        <a href="https://instagram.com/briian_alano?igshid=OGQ5ZDc2ODk2ZA">Instagram</a>
+        <a href="https://www.tiktok.com/@brian.alano">Tiktok</a>
+        </footer>
+    </div>
+</body>
+</html>

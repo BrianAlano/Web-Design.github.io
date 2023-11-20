@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Selection</title>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0E65A3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('imges/motorcyclebg.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px; 
+            height: auto;
+        }
+         p {
+            font-size: 18px;
+        }
+        .motorcycle-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+        }
+
+        .motorcycle-list {
+            list-style: none;
+            padding: 0;
+        }
+        h1{
+            font-family: serif; 
+            font-size: 60px;
+            height: inherit;
+            text-align: match-parent;
+            color: darkorange;
+        }
+
+        .motorcycle-list-item {
+            margin-bottom: 20px;
+            border: 1px solid #fff;
+            padding: 10px;
+        }
+
+        .motorcycle-list-item:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        /* Style for the main navigation menu */
+        .main-nav {
+            text-align: center;
+        }
+
+        .main-nav a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #0E65A3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .main-nav a:hover {
+            background-color: #0C4E8A;
+        }
+
+/* Style for the sub-navigation menu */
+        .sub-nav {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            z-index: 1;
+        }
+
+        .main-nav:hover .sub-nav {
+            display: block;
+        }
+
+        .sub-nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 0;
+        }
+        .sub-nav a:hover {
+            background-color: #0C4E8A;
+        }
+        footer {
+            background-color:  rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        footer a{
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+                 <img class="logo" src="logo.jpeg" alt="Motorcycle World Logo"> 
+        <h1>Top Motorcycle for Adventure!</h1>
+        <a href="motorcycle.html" class="button">View Motorcycles</a>
+        <nav class="sub-nav">
+                <a href="sport.html">Sport Bikes</a>
+                <a href="cruiser.html">Cruiser Bikes</a>
+                <a href="dirt.html">Dirt Bikes</a>
+        </nav>
+        <a href="gear.html" class="button">Shop Gear</a>
+        <a href="about.html" class="button">About Us</a>
+        <a href="showroomid.html" class="button">Show Room</a>
+        <a href="contactus.html" class="button">Contact Us</a>
+    </header>
+
+    <div class="motorcycle-container">
+        <h2>Motorcycle Selection</h2>
+        <ul class="motorcycle-list">
+            <li class="motorcycle-list-item">
+                <h3>2023 BMW R 1250 GS</h3>
+                <img src="imges/adven1.jpg" style="width:100%;height: auto">
+                <p>Main Specs
+                   100
+kW (136 hp) at 7,750 rpm
+143
+Nm maximum torque at 6,250 rpm
+We see the engine drawing of the R 1250 GS.
+1,254
+cc capacity
+4.75
+litre consumption per 100 km based on WMTC </p>
+                <p>Price: ₱1,575,000</p>
+                <a href= "https://www.bmwmotorrad.com.ph/en/models/adventure/r1250gs.html#/section-other-models" class="button">Select</a>
+            </li>
+            <li class="motorcycle-list-item">
+                <h3>2023 Triumph Tiger 900</h3>
+                <img src="imges/adven2.jpeg" style="width:100%;height: auto">
+                <p>Main Specs
+                    900 CC ENGINE
+All-new, more responsive triple engine.
+
+94 HP PEAK POWER
+Higher overall power across the entire rev range. 
+
+64 LB-FT PEAK TORQUE
+10% more torque, with even more torque low down.
+
+65+ ACCESSORIES
+Add to your adventure with genuine Triumph accessories..</p>
+                <p>Price: ₱1,190,000</p>
+                <a href="https://www.triumphmotorcycles.com/motorcycles/adventure/tiger-900-rally" class="button">Select</a>
+            </li>
+            <li class="motorcycle-list-item">
+                <h3>2023 Suzuki V-Strom 1000</h3>
+                <img src="imges/adven3.webp" style="width:100%;height: auto">
+                <p>Main Specs
+                   Engine1037cc (63.3 cu. In.), 4-stroke, liquid-cooled, DOHC, 90° V-twin
+Bore x Stroke100.0 mm x 66.0 mm (3.937 in. x 2.598 in.)
+Compression Ratio11.5:1
+Fuel SystemFuel injection, Ride-by-Wire equipped
+StarterElectric
+LubricationWet sump</p>
+                <p>Price: ₱759,000</p>
+                <a href="https://suzukicycles.com/adventure/2023/v-strom-1050" class="button">Select</a>
+            </li>
+        </ul>
+    <footer>
+        <p>&copy; 2023 Motorcycle World</p>
+        <p>Contact: info@motorcycleworld.com</p>
+        <a href="https://web.facebook.com/rolandbrian.alano/">Facebook</a>
+        <a href="https://instagram.com/briian_alano?igshid=OGQ5ZDc2ODk2ZA">Instagram</a>
+        <a href="https://www.tiktok.com/@brian.alano">Tiktok</a>
+    </footer>
+    </div>
+</body>
+</html>
